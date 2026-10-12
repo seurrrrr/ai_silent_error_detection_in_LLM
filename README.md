@@ -53,7 +53,7 @@ Outputs are written to `generated/refit`, preserving the distributed frozen mode
 | `src/generation/` | Data preparation, adaptation, clean generation, fault injection and monitoring |
 | `docs/` | Data schema, protocol, feature definitions and usage instructions |
 
-The root-level `analyze_layer_sensitivity.py` and `qwen3_5_9b_4bit.py` are earlier layerwise-monitoring utilities. The final detector workflow uses the entry points under `scripts/` and `src/generation/`.
+The root-level `qwen3_5_9b_4bit.py` provides Qwen inference and layerwise fault-injection utilities; `analyze_layer_sensitivity.py` summarizes layer-sensitivity logs. Trajectory generation and numerical detector reproduction use the entry points under `src/generation/` and `scripts/`, respectively.
 
 ## Qwen trajectory-generation adapter
 

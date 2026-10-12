@@ -6,10 +6,10 @@
 
 模型下载（国内加速）：
     export HF_ENDPOINT=https://hf-mirror.com
-    huggingface-cli download Qwen/Qwen3.5-9B --local-dir /home/qiyuan/models/Qwen3.5-9B
+    huggingface-cli download Qwen/Qwen3.5-9B --local-dir models/Qwen3.5-9B
 
-下载完成后将 MODEL_PATH 改为本地目录路径，例如：
-    MODEL_PATH = "/home/qiyuan/models/Qwen3.5-9B"
+下载完成后将 QWEN_MODEL_PATH 环境变量设置为本地模型目录；
+未设置时使用下方 MODEL_ID 指定的模型资源。
 """
 
 import importlib.metadata
@@ -40,8 +40,8 @@ def _check_transformers_version(min_version: str = "4.45.0") -> None:
         sys.exit(1)
 
 
-# 本地模型路径（填写后优先使用本地）；留空则从 HuggingFace 下载
-MODEL_PATH = "/home/qiyuan/models/Qwen3.5-9B"
+# 本地模型路径由环境变量配置；留空则使用 HuggingFace 模型 ID
+MODEL_PATH = os.environ.get("QWEN_MODEL_PATH", "")
 # HuggingFace 模型 ID（MODEL_PATH 为空时使用）
 MODEL_ID   = "Qwen/Qwen3.5-9B"
 

@@ -4,6 +4,11 @@
   "large_adapter_weight": "separate release asset; see models/qwen_lora/integrity.json",
   "files": [
     {
+      "path": ".gitattributes",
+      "bytes": 89,
+      "sha256": "6894ab5a2391314615e7241973b458de3326d7505714aedb22d16e5813031ad5"
+    },
+    {
       "path": ".gitignore",
       "bytes": 264,
       "sha256": "f40515b83f3e2b1a05e0c754280a8bb32dd240a37996dea886980e5567136096"
@@ -320,13 +325,13 @@
     },
     {
       "path": "qwen3_5_9b_4bit.py",
-      "bytes": 68569,
-      "sha256": "ca3309b1591d8a10f0d869e7b5b57eec0676cb61f8307b3707d116419469b53b"
+      "bytes": 68575,
+      "sha256": "bd234b291f0c3b3c6fbb6295d390a088498ff4a0fed01b16131bdc1dc65ea25c"
     },
     {
       "path": "README.md",
-      "bytes": 6391,
-      "sha256": "a616a03116ce82b4102a8715b8674c535cd5b319973262c49448dd2b06cb9b95"
+      "bytes": 6486,
+      "sha256": "2506d166e02c28c8d973867a6e0ed704289e41bbcd11eada8c45f5ac0e424402"
     },
     {
       "path": "requirements-figures.txt",

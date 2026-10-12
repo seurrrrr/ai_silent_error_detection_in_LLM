@@ -1,0 +1,22 @@
+{
+  "family": "RandomForest",
+  "fit_rows": 3795,
+  "fit_positives": 145,
+  "fit_negatives": 3650,
+  "class_weight": 25.17241379310345,
+  "seed": 20260928,
+  "negative_downsampling": false,
+  "parameters": {
+    "n_estimators": 500,
+    "max_depth": null,
+    "min_samples_leaf": 2,
+    "max_features": "sqrt",
+    "class_weight": {
+      "0": 1.0,
+      "1": 25.17241379310345
+    },
+    "random_state": 20260928,
+    "n_jobs": 2
+  },
+  "fit_wall_seconds": 2.5205301
+}

@@ -1,0 +1,17 @@
+{
+  "family": "TokenMargin",
+  "model_sha256": "bf2465fc3c3c7b73b02a2852878722f7d99b9add0f211d510b217d1d9abcd629",
+  "profiles": {
+    "PRIMARY_1PCT": {
+      "threshold": 5.111285337090355e+18,
+      "TP": 16.0,
+      "FP": 11.0,
+      "FN": 21.0,
+      "TN": 1287.0,
+      "Recall": 0.43243243243243246,
+      "FPR": 0.00847457627118644
+    }
+  },
+  "threshold_selection_partition": "CALIBRATION",
+  "test_used": false
+}

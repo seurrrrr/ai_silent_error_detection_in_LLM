@@ -1,0 +1,17 @@
+{
+  "family": "RandomForest",
+  "model_sha256": "4bd19223e001c4c1cd83d04922d94ec640fcd672a58af55187c8b1e501ea88f7",
+  "profiles": {
+    "PRIMARY_1PCT": {
+      "threshold": 0.28269833259082505,
+      "TP": 24.0,
+      "FP": 12.0,
+      "FN": 13.0,
+      "TN": 1286.0,
+      "Recall": 0.6486486486486487,
+      "FPR": 0.009244992295839754
+    }
+  },
+  "threshold_selection_partition": "CALIBRATION",
+  "test_used": false
+}

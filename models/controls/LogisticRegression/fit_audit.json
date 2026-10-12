@@ -1,0 +1,23 @@
+{
+  "family": "LogisticRegression",
+  "fit_rows": 3795,
+  "fit_positives": 145,
+  "fit_negatives": 3650,
+  "class_weight": 25.17241379310345,
+  "seed": 20260928,
+  "negative_downsampling": false,
+  "parameters": {
+    "C": 1.0,
+    "class_weight": {
+      "0": 1.0,
+      "1": 25.17241379310345
+    },
+    "max_iter": 4000,
+    "solver": "lbfgs",
+    "random_state": 20260928
+  },
+  "iterations": [
+    122
+  ],
+  "fit_wall_seconds": 0.09877939999999974
+}

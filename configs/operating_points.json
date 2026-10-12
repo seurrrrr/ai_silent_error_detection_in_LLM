@@ -1,0 +1,35 @@
+{
+  "family": "LightGBM",
+  "model_sha256": "d1cadc488c25ec7515ffe30d5ef5fd1195102c0eacdb7ad1a30f48e5158b9b51",
+  "profiles": {
+    "PRIMARY_1PCT": {
+      "threshold": 0.5445629114870207,
+      "TP": 22.0,
+      "FP": 10.0,
+      "FN": 15.0,
+      "TN": 1288.0,
+      "Recall": 0.5945945945945946,
+      "FPR": 0.007704160246533128
+    },
+    "MODERATE_2PCT": {
+      "threshold": 0.1625944295686845,
+      "TP": 25.0,
+      "FP": 21.0,
+      "FN": 12.0,
+      "TN": 1277.0,
+      "Recall": 0.6756756756756757,
+      "FPR": 0.016178736517719568
+    },
+    "HIGH_SENSITIVITY_5PCT": {
+      "threshold": 0.040672128115885664,
+      "TP": 28.0,
+      "FP": 49.0,
+      "FN": 9.0,
+      "TN": 1249.0,
+      "Recall": 0.7567567567567568,
+      "FPR": 0.03775038520801233
+    }
+  },
+  "threshold_selection_partition": "CALIBRATION",
+  "test_used": false
+}

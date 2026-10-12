@@ -1,0 +1,281 @@
+{
+  "raw_canonical_reconstruction": {
+    "status": "PASS",
+    "rows": 8295,
+    "categories": {
+      "benign_fault": 5133,
+      "structural_parsing": 1405,
+      "clean_reference": 1195,
+      "no_effective_injection": 265,
+      "ade_only": 235,
+      "geometry_related": 51,
+      "other_unknown": 11
+    },
+    "parser_geometry_pairing_and_raw_feature_checks": true,
+    "missing_events_with_recorded_runner_error": 11,
+    "all_categories_and_features_match_numerical_release": true,
+    "qualified_nominal_clean_structure_geometry_and_dataset_ADE_checked": true,
+    "clean_noop_replay_rows": 1195,
+    "maximum_clean_noop_ADE_to_matched_clean": 0.0,
+    "qwen_executed": false
+  },
+  "clean_environment_scoring": {
+    "status": "PASS",
+    "model": "saved_native_LightGBM",
+    "features": 248,
+    "trees": 446,
+    "comparisons": [
+      {
+        "partition": "calibration",
+        "rows": 1335,
+        "maximum_absolute_score_difference": 0.0
+      },
+      {
+        "partition": "test",
+        "rows": 1433,
+        "maximum_absolute_score_difference": 0.0
+      },
+      {
+        "partition": "composite_test",
+        "rows": 1746,
+        "maximum_absolute_score_difference": 0.0
+      }
+    ],
+    "model_fit_executed": false,
+    "qwen_generation_executed": false
+  },
+  "clean_environment_refit": {
+    "status": "PASS",
+    "best_iteration": 446,
+    "training_score_max_difference": 0.0,
+    "fitted_training_rows": 3795,
+    "thresholds_reproduced_from_calibration": true,
+    "model_written_under_requested_output": true,
+    "original_model_replaced": false,
+    "qwen_generation_executed": false
+  },
+  "development_search_smoke": [
+    {
+      "candidate": "G07",
+      "phase": "search",
+      "repetition": 0,
+      "fold": 0,
+      "features": 248,
+      "best_iteration": 732,
+      "maximum_absolute_score_difference": 0.0,
+      "saved_predictions_checked": true,
+      "global_calibration_or_test_used": false
+    }
+  ],
+  "selected_representation_ablation_smoke": [
+    {
+      "candidate": "SELECTED",
+      "phase": "ablation",
+      "repetition": 0,
+      "fold": 0,
+      "features": 248,
+      "best_iteration": 505,
+      "maximum_absolute_score_difference": 0.0,
+      "saved_predictions_checked": true,
+      "global_calibration_or_test_used": false
+    }
+  ],
+  "magnitude_ablation_smoke": [
+    {
+      "candidate": "MINUS_SCORE_MAGNITUDE",
+      "phase": "ablation",
+      "repetition": 0,
+      "fold": 0,
+      "features": 186,
+      "best_iteration": 3,
+      "maximum_absolute_score_difference": 0.0,
+      "saved_predictions_checked": true,
+      "global_calibration_or_test_used": false
+    }
+  ],
+  "competition_ablation_smoke": [
+    {
+      "candidate": "MINUS_TOKEN_COMPETITION",
+      "phase": "ablation",
+      "repetition": 0,
+      "fold": 0,
+      "features": 124,
+      "best_iteration": 382,
+      "maximum_absolute_score_difference": 0.0,
+      "saved_predictions_checked": true,
+      "global_calibration_or_test_used": false
+    }
+  ],
+  "numeric_ablation_smoke": [
+    {
+      "candidate": "MINUS_NUMERIC_TOKEN_EVIDENCE",
+      "phase": "ablation",
+      "repetition": 0,
+      "fold": 0,
+      "features": 186,
+      "best_iteration": 622,
+      "maximum_absolute_score_difference": 0.0,
+      "saved_predictions_checked": true,
+      "global_calibration_or_test_used": false
+    }
+  ],
+  "all_development_summaries": {
+    "status": "PASS",
+    "repeat_operating_metrics_checked": 1080,
+    "candidates": 31,
+    "selected_candidate": "G07",
+    "selected_mean_development_AUPRC": 0.6514334785886763,
+    "fits_executed": false
+  },
+  "test_scene_bootstrap": {
+    "status": "PASS",
+    "bootstrap_resamples": 1000,
+    "scene_unit": 104,
+    "CI_entries_verified": 42,
+    "fits_executed": false,
+    "predictions_recomputed": false
+  },
+  "paired_ablation_bootstrap": {
+    "status": "PASS",
+    "bootstrap_resamples": 2000,
+    "scene_unit": 312,
+    "maximum_absolute_difference": 0.0,
+    "fits_executed": false,
+    "predictions_recomputed": false
+  },
+  "saved_classifier_controls": {
+    "status": "PASS",
+    "comparisons": [
+      {
+        "family": "RandomForest",
+        "partition": "calibration",
+        "rows": 1335,
+        "maximum_absolute_score_difference": 0.0
+      },
+      {
+        "family": "RandomForest",
+        "partition": "test",
+        "rows": 1433,
+        "maximum_absolute_score_difference": 1.1102230246251565e-16
+      },
+      {
+        "family": "LogisticRegression",
+        "partition": "calibration",
+        "rows": 1335,
+        "maximum_absolute_score_difference": 0.0
+      },
+      {
+        "family": "LogisticRegression",
+        "partition": "test",
+        "rows": 1433,
+        "maximum_absolute_score_difference": 0.0
+      },
+      {
+        "family": "TokenMargin",
+        "partition": "calibration",
+        "rows": 1335,
+        "maximum_absolute_score_difference": 0.0
+      },
+      {
+        "family": "TokenMargin",
+        "partition": "test",
+        "rows": 1433,
+        "maximum_absolute_score_difference": 0.0
+      },
+      {
+        "family": "EntropyProxy",
+        "partition": "calibration",
+        "rows": 1335,
+        "maximum_absolute_score_difference": 0.0
+      },
+      {
+        "family": "EntropyProxy",
+        "partition": "test",
+        "rows": 1433,
+        "maximum_absolute_score_difference": 0.0
+      }
+    ],
+    "models_fitted": false,
+    "qwen_loaded": false
+  },
+  "adapter_integrity": {
+    "status": "PASS",
+    "files": 5,
+    "tensor_offsets_valid": true,
+    "model_loaded": false
+  },
+  "synthetic_output_monitor": {
+    "status": "PASS",
+    "final_feature_count": 248,
+    "monitoring_positions": 31,
+    "statistic_definitions_checked": 8,
+    "early_termination_missing_slots_checked": true,
+    "qwen_loaded": false
+  },
+  "portable_archive_validation": {
+    "status": "PASS",
+    "archive_extracted_to_new_directory": true,
+    "unrelated_working_directory": true,
+    "clean_CPU_environment": true,
+    "adapter_weight_required": false,
+    "stages": [
+      {
+        "status": "PASS",
+        "hashed_files": 156,
+        "canonical_rows": 8295,
+        "features": 248,
+        "ADE_only_positives": 235,
+        "scene_overlap": 0,
+        "samples_verified_against_source_scene_mapping": 1195,
+        "calibration_threshold_rule_verified": true,
+        "score_metric_profiles_verified": 6,
+        "qwen_generation_executed": false
+      },
+      {
+        "status": "PASS",
+        "model": "saved_native_LightGBM",
+        "features": 248,
+        "trees": 446,
+        "comparisons": [
+          {
+            "partition": "calibration",
+            "rows": 1335,
+            "maximum_absolute_score_difference": 0.0
+          },
+          {
+            "partition": "test",
+            "rows": 1433,
+            "maximum_absolute_score_difference": 0.0
+          },
+          {
+            "partition": "composite_test",
+            "rows": 1746,
+            "maximum_absolute_score_difference": 0.0
+          }
+        ],
+        "model_fit_executed": false,
+        "qwen_generation_executed": false
+      },
+      {
+        "status": "PASS",
+        "best_iteration": 446,
+        "training_score_max_difference": 0.0,
+        "fitted_training_rows": 3795,
+        "thresholds_reproduced_from_calibration": true,
+        "model_written_under_requested_output": true,
+        "original_model_replaced": false,
+        "qwen_generation_executed": false
+      }
+    ]
+  },
+  "environment": {
+    "platform": "Windows x64",
+    "python": "3.9",
+    "dependency_file": "requirements-lock.txt"
+  },
+  "workflow_scope": {
+    "numerical_workflow": "saved-output reconstruction, CPU detector scoring and fitting, development summaries and scene-bootstrap statistics",
+    "fold_replay": "one recorded fold for the selected subset and each final LightGBM group-removal variant",
+    "generator_instructions": "docs/GENERATION_INPUTS.md"
+  }
+}

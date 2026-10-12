@@ -1,0 +1,31 @@
+{
+  "base_model": "Qwen/Qwen3.5-9B",
+  "base_revision": null,
+  "files": [
+    {
+      "filename": "adapter_config.json",
+      "bytes": 1141,
+      "sha256": "013efbcee5fc71b26d1882d638921719b3b0d1bdda28895d5d5b36a0c08cdf2e"
+    },
+    {
+      "filename": "adapter_model.safetensors",
+      "bytes": 232818064,
+      "sha256": "4ac58cc6a3062d7f2d74241a6d307222d6a7d71c615c9c5f21aef8055be06e5d"
+    },
+    {
+      "filename": "chat_template.jinja",
+      "bytes": 7909,
+      "sha256": "a92e1dd97cb1cb175c9b70c0828e146bea4371c2643319b661b777e89811972e"
+    },
+    {
+      "filename": "tokenizer_config.json",
+      "bytes": 1130,
+      "sha256": "8527aa3d52f1328086575444bc6d261bffa4b2344f21c49a76d13e96b2b3cad8"
+    },
+    {
+      "filename": "tokenizer.json",
+      "bytes": 19989442,
+      "sha256": "6a0316e38d81a31965b770393461dcc03612ac06e2733f8e1cc440d36a2ef189"
+    }
+  ]
+}

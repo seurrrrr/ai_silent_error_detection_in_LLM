@@ -1,0 +1,17 @@
+{
+  "family": "LogisticRegression",
+  "model_sha256": "0d1ec824d0d819cada76f48ec52d0574942d8ab27b18eb409ee6bdd92dd9790e",
+  "profiles": {
+    "PRIMARY_1PCT": {
+      "threshold": 0.8299034357169052,
+      "TP": 21.0,
+      "FP": 11.0,
+      "FN": 16.0,
+      "TN": 1287.0,
+      "Recall": 0.5675675675675675,
+      "FPR": 0.00847457627118644
+    }
+  },
+  "threshold_selection_partition": "CALIBRATION",
+  "test_used": false
+}

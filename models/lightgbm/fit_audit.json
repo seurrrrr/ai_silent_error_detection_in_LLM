@@ -1,0 +1,48 @@
+{
+  "family": "LightGBM",
+  "fit_rows": 3795,
+  "fit_positives": 145,
+  "fit_negatives": 3650,
+  "class_weight": 25.17241379310345,
+  "seed": 20260928,
+  "negative_downsampling": false,
+  "best_iteration": 446,
+  "parameters": {
+    "objective": "binary",
+    "boosting_type": "gbdt",
+    "learning_rate": 0.03,
+    "num_leaves": 31,
+    "max_depth": -1,
+    "min_child_samples": 20,
+    "subsample": 0.85,
+    "subsample_freq": 1,
+    "colsample_bytree": 0.75,
+    "reg_alpha": 1.0,
+    "reg_lambda": 5.0,
+    "scale_pos_weight": 25.17241379310345,
+    "n_estimators": 446,
+    "random_state": 20260928,
+    "n_jobs": 2,
+    "verbosity": -1,
+    "deterministic": true,
+    "force_col_wise": true
+  },
+  "stop_fit_weight": 22.74436090225564,
+  "evaluated_iterations": 526,
+  "best_binary_logloss": 0.043824657107229444,
+  "stopping_fit": {
+    "rows": 3158,
+    "scenes": 249,
+    "positives": 133,
+    "negatives": 3025
+  },
+  "stopping": {
+    "rows": 637,
+    "scenes": 63,
+    "positives": 12,
+    "negatives": 625
+  },
+  "refit_before_calibration": true,
+  "refit_after_calibration": false,
+  "fit_wall_seconds": 1.6606084
+}

@@ -1,0 +1,2 @@
+# Optional Figure 2 rendering, in addition to requirements-lock.txt.
+matplotlib==3.9.4

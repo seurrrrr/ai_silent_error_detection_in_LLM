@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite the associated manuscript when using these research artifacts."
+type: software
+title: "Task-Level Silent Error Detection for Large-Language-Model-Based Trajectory Generation in Autonomous Driving"
+authors:
+  - family-names: Song
+    given-names: Qiyuan
+  - family-names: Li
+    given-names: Binghan
+  - family-names: Xin
+    given-names: Yunpeng
+  - family-names: Cao
+    given-names: Jianing
+  - family-names: Liu
+    given-names: Zhiyuan
+  - family-names: Cheng
+    given-names: Qixiu
+repository-code: "https://github.com/seurrrrr/ai_silent_error_detection_in_LLM"
+license: Apache-2.0

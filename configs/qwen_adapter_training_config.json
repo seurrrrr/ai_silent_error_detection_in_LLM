@@ -1,0 +1,83 @@
+{
+  "base_model": {
+    "value": "Qwen/Qwen3.5-9B",
+    "status": "ARTIFACT_CONFIRMED"
+  },
+  "train_sample_count": {
+    "value": null,
+    "status": "NOT_RECOVERED"
+  },
+  "validation_sample_count": {
+    "value": null,
+    "status": "NOT_RECOVERED"
+  },
+  "lora_r": {
+    "value": 32,
+    "status": "ARTIFACT_CONFIRMED"
+  },
+  "lora_alpha": {
+    "value": 64,
+    "status": "ARTIFACT_CONFIRMED"
+  },
+  "lora_dropout": {
+    "value": 0.05,
+    "status": "ARTIFACT_CONFIRMED"
+  },
+  "target_modules": {
+    "value": [
+      "down_proj",
+      "k_proj",
+      "up_proj",
+      "v_proj",
+      "o_proj",
+      "q_proj",
+      "gate_proj"
+    ],
+    "status": "ARTIFACT_CONFIRMED"
+  },
+  "quantization": {
+    "value": {
+      "load_in_4bit": true,
+      "bnb_4bit_quant_type": "nf4",
+      "bnb_4bit_use_double_quant": true,
+      "bnb_4bit_compute_dtype": "bfloat16 when the recovered bf16 flag was active"
+    },
+    "status": "SCRIPT_DEFAULT_ONLY"
+  },
+  "max_length": {
+    "value": 2048,
+    "status": "SCRIPT_DEFAULT_ONLY"
+  },
+  "optimizer": {
+    "value": "paged_adamw_8bit",
+    "status": "ARTIFACT_CONFIRMED"
+  },
+  "learning_rate": {
+    "value": 0.0001,
+    "status": "ARTIFACT_CONFIRMED"
+  },
+  "weight_decay": {
+    "value": 0.0,
+    "status": "ARTIFACT_CONFIRMED"
+  },
+  "per_device_train_batch_size": {
+    "value": 1,
+    "status": "ARTIFACT_CONFIRMED"
+  },
+  "per_device_eval_batch_size": {
+    "value": 1,
+    "status": "ARTIFACT_CONFIRMED"
+  },
+  "gradient_accumulation_steps": {
+    "value": 8,
+    "status": "ARTIFACT_CONFIRMED"
+  },
+  "num_train_epochs": {
+    "value": 1.0,
+    "status": "ARTIFACT_CONFIRMED"
+  },
+  "seed": {
+    "value": 42,
+    "status": "ARTIFACT_CONFIRMED"
+  }
+}

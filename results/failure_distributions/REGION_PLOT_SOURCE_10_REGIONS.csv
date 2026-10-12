@@ -1,0 +1,11 @@
+display_order,display_region,ade_only,structural_parsing,geometry_related
+1,Final token-prediction projection,225,430,38
+2,Feed-forward compression module,1,163,2
+3,Complete decoder-layer output,0,155,0
+4,Feed-forward expansion module,0,118,1
+5,Post-attention normalization,0,100,0
+6,Attention output transformation,0,99,4
+7,Input-side normalization,3,94,2
+8,Gated feed-forward module,0,69,0
+9,Attention value transformation,4,65,0
+10,Other regions,2,112,4

@@ -1,0 +1,95 @@
+{
+  "source_records": [
+    {
+      "record": "PROTOCOL_FROZEN.json",
+      "source_record_sha256": "a7520b736707b23a55645252db6be21f93d38471a10531a3ec43093bcd6e31cc",
+      "created_utc": "2026-10-02T09:36:39.540306+00:00"
+    },
+    {
+      "record": "SELECTION_FROZEN.json",
+      "source_record_sha256": "249d86949d3532f1d7f8abb6322769119424a130b428e2c2ba7e42abdb6a02e4",
+      "created_utc": "2026-10-02T09:43:06.964787+00:00"
+    },
+    {
+      "record": "FINAL_EVALUATION_PROTOCOL_FROZEN.json",
+      "source_record_sha256": "a3df1edd91a62ae9bd1a56dee164eb21eecd479ceaf9347107358890aa24a375",
+      "created_utc": "2026-10-02T09:54:00.246695+00:00"
+    },
+    {
+      "record": "PRE_TEST_FREEZE_MANIFEST.json",
+      "source_record_sha256": "9c422b220be7fd2e5fdebdbd6778561fcc390748999d6bdd2d029e49b0021cc9",
+      "created_utc": "2026-10-02T09:54:23.990504+00:00"
+    }
+  ],
+  "source_inputs": [
+    {
+      "source_relative_path": "outputs2/lightgbm_feature_subset_finalization_20261002_v1/fit_calibrate_evaluate_final.py",
+      "original_sha256": "f4f4854aa4bf3b3c05873438339962a991d2e2496f22c6578eccbe77c72a6074"
+    },
+    {
+      "source_relative_path": "outputs2/final311_targeted_feature_validation_20261002_v1/run_targeted_validation.py",
+      "original_sha256": "8f68e2d5027f239a427ca870dfbcfb529630bf1591e2129710432374065a5a43"
+    },
+    {
+      "source_relative_path": "outputs2/lightgbm_feature_subset_finalization_20261002_v1/run_feature_selection.py",
+      "original_sha256": "8c77c8fc627ba3e3054bcc5656485a30dd214b287f7f79350a69b466626318d7"
+    },
+    {
+      "source_relative_path": "outputs2/lightgbm_feature_subset_finalization_20261002_v1/verify_development_independent.py",
+      "original_sha256": "15b7f2b4d26600173269256829103966e9d801cfe0a324a7b32329dc03d27b4f"
+    },
+    {
+      "source_relative_path": "outputs2/lightgbm_feature_subset_finalization_20261002_v1/INDEPENDENT_DEVELOPMENT_VALIDATION.json",
+      "original_sha256": "97aea1379a9a961deb94236f108b3a7eb147be161b65a38806f0c6a6443f9969"
+    },
+    {
+      "source_relative_path": "outputs2/lightgbm_feature_subset_finalization_20261002_v1/PROTOCOL_FROZEN.json",
+      "original_sha256": "a7520b736707b23a55645252db6be21f93d38471a10531a3ec43093bcd6e31cc"
+    },
+    {
+      "source_relative_path": "outputs2/lightgbm_feature_subset_finalization_20261002_v1/SELECTION_FROZEN.json",
+      "original_sha256": "249d86949d3532f1d7f8abb6322769119424a130b428e2c2ba7e42abdb6a02e4"
+    },
+    {
+      "source_relative_path": "outputs2/lightgbm_feature_subset_finalization_20261002_v1/selected_features.txt",
+      "original_sha256": "046ac53c8df77ec451a3896932b08e16e5e09bd08f8fd9e76e0eb51a6502b96b"
+    },
+    {
+      "source_relative_path": "outputs2/lightgbm_feature_subset_finalization_20261002_v1/feature_group_map.csv",
+      "original_sha256": "9baa4ec0be96fb91a466d03f2d16e55a76e3dd249c1821e294636e0df4e4766e"
+    },
+    {
+      "source_relative_path": "outputs2/lightgbm_feature_subset_finalization_20261002_v1/postselection_comparison.csv",
+      "original_sha256": "8654a9c8288a2574a351e99fdc4f2b5828213b2f821a72168a3470866dab347b"
+    },
+    {
+      "source_relative_path": "outputs2/lightgbm_feature_subset_finalization_20261002_v1/final_training/early_stopping_indices.json",
+      "original_sha256": "217ca7404c3743e8aecdbdae98169cda3f5065044b75be58a5e970445ec9abaa"
+    },
+    {
+      "source_relative_path": "outputs2/lightgbm_feature_subset_finalization_20261002_v1/final_training/early_stopping_manifest.csv",
+      "original_sha256": "256fa38fcc34169b19acc47799761e8f6a30f18678a4a51d76f65b49c0e0c4c2"
+    },
+    {
+      "source_relative_path": "outputs2/detector_v2_matched_clean_20260928/03_SPLITS/scene_split_manifest.csv",
+      "original_sha256": "99fa7310ea6a34c72600a7e79a603bc01e887b9b27a201ac684897df239986c2"
+    },
+    {
+      "source_relative_path": "outputs2/paper_final_lgbm_matched_clean_20260928/11_GEOMETRY_LINEAGE/geometry_gate.json",
+      "original_sha256": "7b22869e4e062d1f0f52076d9aa1f99afd954d430475507ac3a605c047398e70"
+    },
+    {
+      "source_relative_path": "outputs2/detector_v2_matched_clean_20260928/03_SPLITS/train_all_executions.parquet",
+      "original_sha256": "bbedf75b8fb8acc2aebe18488e8746b9fba8ca6603c3aaf68435dc721071cf96"
+    },
+    {
+      "source_relative_path": "outputs2/detector_v2_matched_clean_20260928/03_SPLITS/calibration_all_executions.parquet",
+      "original_sha256": "f78302bc000cac6f414376d1d5869cc75a3ba647003a152a1365bfbe4581521f"
+    },
+    {
+      "source_relative_path": "outputs2/detector_v2_matched_clean_20260928/03_SPLITS/test_all_executions.parquet",
+      "original_sha256": "4f44858d66cef67f451ca3395931a2e0c68dffee4ab63b00812b894e88873e6a"
+    }
+  ],
+  "scope": "Checksums identify original frozen experiment records; packaged numerical exports and portable code have separate release checksums."
+}

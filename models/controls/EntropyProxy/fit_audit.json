@@ -1,0 +1,15 @@
+{
+  "family": "EntropyProxy",
+  "fit_rows": 3795,
+  "fit_positives": 145,
+  "fit_negatives": 3650,
+  "class_weight": 25.17241379310345,
+  "seed": 20260928,
+  "negative_downsampling": false,
+  "aggregation": "mean over observed slots",
+  "missing_median": 0.40634588479987277,
+  "direction": 1,
+  "positive_direction_TRAIN_AP": 0.25901295479031966,
+  "negative_direction_TRAIN_AP": 0.021117498930242805,
+  "fit_wall_seconds": 0.001802400000000759
+}

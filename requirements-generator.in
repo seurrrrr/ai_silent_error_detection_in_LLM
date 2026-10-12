@@ -1,0 +1,11 @@
+# Optional generator dependencies; this is not a tested lockfile.
+# Resolve a compatible CUDA stack for the chosen Qwen base revision.
+torch
+transformers
+peft==0.19.1
+accelerate
+bitsandbytes
+safetensors
+datasets
+numpy
+pandas

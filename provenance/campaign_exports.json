@@ -1,0 +1,38 @@
+{
+  "files": [
+    {
+      "release_file": "configs/campaigns/broad6500.jsonl",
+      "planned_executions": 6500,
+      "source_relative_path": "outputs2/v9b_dense_fault6500_inputs/v9b_dense_fault6500_campaign.jsonl",
+      "source_sha256": "403f89d71bfc63cdea0716ceb7a022c69ebf4745594af43eaf5b3af50a173c12",
+      "transformation": "Retain execution identity, per-case random seed and injection parameters; omit prompts, dataset attributes, source paths and free-text notes."
+    },
+    {
+      "release_file": "configs/campaigns/targeted500.jsonl",
+      "planned_executions": 500,
+      "source_relative_path": "outputs2/v10b_ade_targeted_coverage500_inputs/v10b_ade_cov500_campaign.jsonl",
+      "source_sha256": "88fd38ec1a278a2ba3a54d546b3059428400b8688aef56348330dc480d7bf6f1",
+      "transformation": "Retain execution identity, per-case random seed and injection parameters; omit prompts, dataset attributes, source paths and free-text notes."
+    },
+    {
+      "release_file": "configs/campaigns/focused100.jsonl",
+      "planned_executions": 100,
+      "source_relative_path": "outputs2/v10c_ade_focused100_inputs/v10c_ade_focus100_campaign.jsonl",
+      "source_sha256": "42768f7af52776bfff89ac74437b2cab912d2fa978ac9fe125da74b46bdd4ece",
+      "transformation": "Retain execution identity, per-case random seed and injection parameters; omit prompts, dataset attributes, source paths and free-text notes."
+    },
+    {
+      "release_file": "configs/campaigns/monitor_targets.txt",
+      "source_relative_path": "outputs2/v8c_fullmonitor_run_inputs/v8c_fullmonitor_monitor_targets_full_nonlora_fixed.txt",
+      "source_sha256": "f81f2d08cffaf4872cdf33edb392d701131d7834228ceb8015df171f38051bbe",
+      "transformation": "byte-identical numerical monitoring dependency"
+    },
+    {
+      "release_file": "configs/campaigns/clean_profile_stats.csv",
+      "source_relative_path": "outputs2/v8c_fullmonitor_clean_profile/v8c_fullmonitor_clean_profile_stats.csv",
+      "source_sha256": "82e7e38d6bc771b544557f953886823aecc91a1e1928eae989dec38915fb1a30",
+      "transformation": "byte-identical numerical monitoring dependency"
+    }
+  ],
+  "generator_replay_executed": false
+}

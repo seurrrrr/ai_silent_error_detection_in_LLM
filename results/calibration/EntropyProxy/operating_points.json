@@ -1,0 +1,17 @@
+{
+  "family": "EntropyProxy",
+  "model_sha256": "0ec4705fde90e6131e30187c2fe90835ed7a716f88060e573038730e29245c21",
+  "profiles": {
+    "PRIMARY_1PCT": {
+      "threshold": 0.5753837180560485,
+      "TP": 16.0,
+      "FP": 12.0,
+      "FN": 21.0,
+      "TN": 1286.0,
+      "Recall": 0.43243243243243246,
+      "FPR": 0.009244992295839754
+    }
+  },
+  "threshold_selection_partition": "CALIBRATION",
+  "test_used": false
+}

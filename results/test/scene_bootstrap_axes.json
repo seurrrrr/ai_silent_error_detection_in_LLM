@@ -1,0 +1,42 @@
+{
+  "keys": [
+    [
+      "LightGBM",
+      "PRIMARY_1PCT"
+    ],
+    [
+      "LightGBM",
+      "MODERATE_2PCT"
+    ],
+    [
+      "LightGBM",
+      "HIGH_SENSITIVITY_5PCT"
+    ],
+    [
+      "RandomForest",
+      "PRIMARY_1PCT"
+    ],
+    [
+      "LogisticRegression",
+      "PRIMARY_1PCT"
+    ],
+    [
+      "TokenMargin",
+      "PRIMARY_1PCT"
+    ],
+    [
+      "EntropyProxy",
+      "PRIMARY_1PCT"
+    ]
+  ],
+  "metrics": [
+    "AUROC",
+    "AUPRC",
+    "Recall",
+    "Precision",
+    "F1",
+    "FPR"
+  ],
+  "seed": 20260928,
+  "resamples": 1000
+}

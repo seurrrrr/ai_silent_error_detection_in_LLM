@@ -1,0 +1,19 @@
+{
+  "candidates": [
+    "SELECTED",
+    "MINUS_SCORE_MAGNITUDE",
+    "MINUS_TOKEN_COMPETITION",
+    "MINUS_NUMERIC_TOKEN_EVIDENCE",
+    "RF_SAME_FEATURES"
+  ],
+  "metrics": [
+    "AUROC",
+    "AUPRC",
+    "Recall",
+    "Precision",
+    "F1",
+    "FPR"
+  ],
+  "seed": 20261002,
+  "repeats": 2000
+}

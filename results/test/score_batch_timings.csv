@@ -1,0 +1,6 @@
+family,test_rows,wall_seconds,qualification
+LightGBM,1748,0.025768199999999908,"single batch CPU score, not end-to-end generator or monitoring overhead"
+RandomForest,1748,0.063925900000000091,"single batch CPU score, not end-to-end generator or monitoring overhead"
+LogisticRegression,1748,0.0075491000000003083,"single batch CPU score, not end-to-end generator or monitoring overhead"
+TokenMargin,1748,0.00063060000000003669,"single batch CPU score, not end-to-end generator or monitoring overhead"
+EntropyProxy,1748,0.00055499999999941707,"single batch CPU score, not end-to-end generator or monitoring overhead"

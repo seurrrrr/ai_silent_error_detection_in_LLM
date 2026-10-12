@@ -1,0 +1,15 @@
+exact_family,display_region,ade_only,structural_parsing,geometry_related
+attn_k_proj,attn_k_proj,0,15,0
+attn_out_proj,Attention output transformation,0,99,4
+attn_q_proj,attn_q_proj,0,23,1
+attn_v_proj,Attention value transformation,4,65,0
+conv_or_linear_attn,conv_or_linear_attn,0,2,2
+input_layernorm,Input-side normalization,3,94,2
+lm_head,Final token-prediction projection,225,430,38
+mlp_down_proj,Feed-forward compression module,1,163,2
+mlp_gate_proj,Gated feed-forward module,0,69,0
+mlp_up_proj,Feed-forward expansion module,0,118,1
+norm_other,norm_other,1,38,1
+other,other,1,34,0
+post_attention_layernorm,Post-attention normalization,0,100,0
+whole_layer,Complete decoder-layer output,0,155,0

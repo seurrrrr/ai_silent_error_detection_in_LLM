@@ -1,0 +1,15 @@
+{
+  "family": "TokenMargin",
+  "fit_rows": 3795,
+  "fit_positives": 145,
+  "fit_negatives": 3650,
+  "class_weight": 25.17241379310345,
+  "seed": 20260928,
+  "negative_downsampling": false,
+  "aggregation": "mean over observed slots",
+  "missing_median": 5.540322580645161,
+  "direction": 1,
+  "positive_direction_TRAIN_AP": 0.42681623538979735,
+  "negative_direction_TRAIN_AP": 0.020631501340835103,
+  "fit_wall_seconds": 0.002673300000001433
+}

@@ -1,0 +1,6 @@
+fault_mode,failure_count,total_campaign_fault_attempts,total_effectively_injected_executions,conditional_rate_per_attempt,conditional_rate_per_effective_injection,denominator_convention
+fp32_cast_bit30_stress,11,872,829,0.01261467889908257,0.013268998793727383,Raw campaign attempts including ineffective injections; decode=2838 and prefill=1026 differ from manuscript 2837/1027; effective-only denominator also explicit
+persistent_whole_run,2,1467,1449,0.0013633265167007499,0.0013802622498274672,Raw campaign attempts including ineffective injections; decode=2838 and prefill=1026 differ from manuscript 2837/1027; effective-only denominator also explicit
+reserve_late_decode,8,897,839,0.008918617614269788,0.0095351609058402856,Raw campaign attempts including ineffective injections; decode=2838 and prefill=1026 differ from manuscript 2837/1027; effective-only denominator also explicit
+transient_decode,24,2838,2715,0.0084566596194503175,0.0088397790055248626,Raw campaign attempts including ineffective injections; decode=2838 and prefill=1026 differ from manuscript 2837/1027; effective-only denominator also explicit
+transient_prefill,6,1026,992,0.0058479532163742687,0.0060483870967741934,Raw campaign attempts including ineffective injections; decode=2838 and prefill=1026 differ from manuscript 2837/1027; effective-only denominator also explicit
